@@ -1,0 +1,8 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Cache e arquivos temporários
+__pycache__/
