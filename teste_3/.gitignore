@@ -7,9 +7,7 @@ ENV/
 # Cache e arquivos temporários
 __pycache__/
 
-# Ignorar todos os arquivos CSV, exceto os das pastas específicas
-*.csv
-!demonstracoes_contabeis2023/*.csv
-!demonstracoes_contabeis2024/*.csv
-!operadoras_ativas/*.csv
-
+# Ignorar pastas com dados CSV
+demonstracoes_contabeis2023/
+demonstracoes_contabeis2024/
+operadoras_ativas/
