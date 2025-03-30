@@ -1,6 +1,6 @@
 # Projeto: Testes para vaga de estágio
 
-Este repositório contém 4 pastas com diferentes teste.
+Este repositório contém 4 pastas com diferentes testes, cada pasta de teste tem seu próprio README com informações complementares para a execução dos códigos.
 
 ## Uso
 
