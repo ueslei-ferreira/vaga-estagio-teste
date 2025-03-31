@@ -4,9 +4,9 @@ import os
 
 # Configurações do banco de dados
 BD_CONFIG = {
-    "dbname": "estagio-teste",
-    "user": "postgres",
-    "password": "1234",
+    "dbname": "seu_banco",
+    "user": "seu_usuario",
+    "password": "sua_senha",
     "host": "localhost",
     "port": "5433"
 }

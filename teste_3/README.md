@@ -2,6 +2,20 @@
 
 Esta pasta contém 3 códigos para processamento de arquivos CSV, para download dos arquivos, estruturação e inserção em Banco de dados e consultas aos dados inseridos, os dados foram armazenados usando PostgreSQL.
 
+### Configuração do Banco de Dados
+
+Antes de executar os scripts 2 e 3, é necessário criar o banco de dados no PostgreSQL. Siga os passos abaixo:
+
+1. Acesse o PostgreSQL usando o terminal ou uma ferramenta de gerenciamento, como pgAdmin.
+2. Execute o seguinte comando para criar o banco de dados:
+
+```sql
+CREATE DATABASE "seu_banco";
+```
+
+3. Certifique-se de que as credenciais no script (`dbname`, `user`, `password`, `host`, `port`) correspondem às configurações do seu PostgreSQL.
+4. Após criar o banco de dados, execute os scripts normalmente.
+
 ### Uso
 
 1. Navegue até a pasta:
@@ -16,7 +30,7 @@ cd teste_3
 pip install -r requirements.txt
 ```
 
-3. Instruções de Uso
+3. Execução:
 
 Execute o script para download dos dados com o seguinte comando:
 
@@ -24,7 +38,7 @@ Execute o script para download dos dados com o seguinte comando:
 python baixa_csvs.py
 ```
 
-Execute o script para estruturação das tabelas inserção dos dados com o seguinte comando:
+Execute o script para estruturação das tabelas e inserção dos dados, com o seguinte comando:
 
 ```bash
 python estruturar_dados.py
